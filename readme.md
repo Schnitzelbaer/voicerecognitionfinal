@@ -15,11 +15,21 @@ Die momentan aktuellste Version kann hier abgerufen werden: "!!!HIER AKTUELLSTEN
 ## Interface
 
 #### Play Button
-Über den Play Button wird die Präsentation gestartet
+Über den Play Button wird die Präsentation gestartet. Die Slides wechseln in den Fullscreenmodus und die Spracherkennung fängt an deinen Worten zu lauschen.
+
+
 
 #### Commands Index
 
+Im Commands Index-Slider befindet sich eine Übersicht über alle Keywords/Commands, die von der Spracherkennung momentan erkannt werden. Dieser Slider dient als Gedankenstütze für den Fall, dass einmal ein Keyword/Command in Vergessenheit geraten sollte. 
+
+
+
 #### Overview Button
+
+Klickt man den Overview-Button, zoomt der Viewport so weit heraus, dass man alle Slides in der Übersicht sehen kann. Klickt man in dieser Ansicht auf einen Slide, wird dieser 
+
+
 
 #### Folienübersicht
 
@@ -33,15 +43,29 @@ Die momentan aktuellste Version kann hier abgerufen werden: "!!!HIER AKTUELLSTEN
 
 ## Commands
 
-Navigation
+#### Navigation
+Teil der grundlegenden Navigation ist “next slide” um eine Folie weiterzugehen, “previous slide” um eine Folie zurück zu springen. Außerdem gibt es einen “Overview” bei dem das ganze Canvas mit allen Folien sichtbar wird. Man kann jederzeit die Präsentation von neu starten wenn man “Start from the beginning” sagt. Die letzte Folie wird mit “bring me to the end” oder “last slide” aufgerufen. Man kann die Präsentation abbrechen in dem man “stop presentation sagt.
 
-Specific Navigation
 
-Speak
 
-Assist
+#### Specific Navigation
+Spezifische Navigation besteht daraus gezielt Slideinhalte zu nennen wie “go to the Quote”.
 
-Find
+
+
+#### Speak
+Bei Kommandos wie “read the quote” ließt Orion dir Folieninhalte oder Stichpunkte zu. Er kann auch Denkanstöße während des Präsentieren geben durch “tell me something”.
+
+
+
+#### Assist
+Orion schreibt Gedanken und Stichpunkte auf die ausgewählte Folie durch “please write down_" und löscht Stichpunkte von den Folie mit “delete_”.
+
+
+
+#### Find
+Durch die Suchfunktion “search for_” kann Orion die Präsentation auf geschriebenen und bildlichen Inhalt durchsuchen.
+Um innerhalb der Suche zu Navigieren gibt es die Kommandos “next result” oder “previous result”. “Exit search” beendet den Suchmodus und die Ansicht ist wieder auf Standart.
 
 
 
