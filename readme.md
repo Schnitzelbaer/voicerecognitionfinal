@@ -27,17 +27,19 @@ Im Commands Index-Slider befindet sich eine Übersicht über alle Keywords/Comma
 
 #### Overview Button
 
-Klickt man den Overview-Button, zoomt der Viewport so weit heraus, dass man alle Slides in der Übersicht sehen kann. Klickt man in dieser Ansicht auf einen Slide, wird dieser 
+Klickt man den Overview-Button, zoomt der Viewport so weit heraus, dass man alle Slides in der Übersicht sehen kann. Klickt man in dieser Ansicht auf einen Slide, wird dieser herangezoomt.
 
 
 
 #### Folienübersicht
 
+In dieser Leiste sind alle Slides der Reihe nach aufgelistet, ähnlich wie in Programmen wie Powerpoint oder Keynote. Klickt man auf eines dieser Vorschau-Bilder, wird dieser   Diese Leiste kann mit einem Klick auf das Icon oben rechts versteckt werden.
+
+
+
 #### Erkannte Keywords
 
 #### Voice Feedback
-
-
 
 
 
@@ -69,11 +71,9 @@ Um innerhalb der Suche zu Navigieren gibt es die Kommandos “next result” ode
 
 
 
-
-
-
-
 ## Code
+
+#### HTML
 
 Alle Slides werden im HTML index.html erzeugt.
 Das <div> der id=“impress” beinhaltet alle Slides. Um einen neuen  Slide zu generieren füge ein neues Div innerhalb von id=“impress” hinzu. 
@@ -84,8 +84,8 @@ Innerhalb des Slide-Divs können Tags wie <h>, <p>, <img> usw. eingefügt und ve
 
 Erzeugung eines Beispielslides:
 
+```html
 <!-- all slides -->
-
 <div id="impress" data-max-scale="4" data-width="1000" data-height="650">
 
   <!-- new slide -->
@@ -93,14 +93,40 @@ Erzeugung eines Beispielslides:
     <p>Title</p>
     <img id="titleimage" src="images/title.png" width="100%">
   </div>
-
 </div>
-
-CSS
-
-JS
+```
 
 
+
+#### JavaScript
+
+Alle Befehle werden in JavaScript bzw in der Datei vocerecognition_script.js erzeugt. 
+
+Die Variable “myGroup” beinhaltet dabei ein Array aller definierten Voice Commands. 
+
+Jeder einzelne Command besteht dabei aus einem Objekt.
+
+In diesem Bespiel nennt sich das Objekt bzw. der Befehl “nextSlide”.
+
+Jeder Befehl benötigt indexes, welche die Keywords des Befehls definieren. In diesem Beispiel sind das “next slide please”, "next slide" und “next please”. Mithilfe dieser Keywords wird der Befehl getriggert und die Aktion ausgeführt.
+
+Unter action: wird die, beim Befehl jeweils auszuführende Funktion, notiert.
+
+```javascript
+// all voice commands
+var myGroup = [
+
+  //one specific voice command
+  nextSlide = {
+    indexes: ["next slide please", "next slide", "next please"],
+    action: function() {
+      var api = impress();
+      api.init();
+      api.next();
+    }
+  }
+]
+```
 
 
 
