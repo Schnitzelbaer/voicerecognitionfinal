@@ -39,7 +39,7 @@ Klickt man den Overview-Button, zoomt der Viewport so weit heraus, dass man alle
 
 #### Folienübersicht
 
-In dieser Leiste sind alle Slides der Reihe nach aufgelistet, ähnlich wie in Programmen wie Powerpoint oder Keynote. Klickt man auf eines dieser Vorschau-Bilder, wird dieser   Diese Leiste kann mit einem Klick auf das Icon oben rechts versteckt werden.
+In dieser Leiste sind alle Slides der Reihe nach aufgelistet, ähnlich wie bei Programmen wie Powerpoint oder Keynote. Klickt man auf eines dieser Vorschau-Bilder, slidet der Viewport zur dazugehörigen Folie.  Diese Leiste kann mit einem Klick auf das Icon oben rechts versteckt werden.
 
 ![folienuebersicht](material/folienuebersicht.png)
 
