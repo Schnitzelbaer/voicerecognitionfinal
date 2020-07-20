@@ -17,11 +17,15 @@ Die momentan aktuellste Version kann hier abgerufen werden: "!!!HIER AKTUELLSTEN
 #### Play Button
 Über den Play Button wird die Präsentation gestartet. Die Slides wechseln in den Fullscreenmodus und die Spracherkennung fängt an deinen Worten zu lauschen.
 
+![play-button](/Users/swirth/Documents/Websites/VoiceControlledPresentation/voicerecognitionfinal/material/play-button.png)
+
 
 
 #### Commands Index
 
 Im Commands Index-Slider befindet sich eine Übersicht über alle Keywords/Commands, die von der Spracherkennung momentan erkannt werden. Dieser Slider dient als Gedankenstütze für den Fall, dass einmal ein Keyword/Command in Vergessenheit geraten sollte. 
+
+![commands-index](/Users/swirth/Documents/Websites/VoiceControlledPresentation/voicerecognitionfinal/material/commands-index.png)
 
 
 
@@ -29,17 +33,31 @@ Im Commands Index-Slider befindet sich eine Übersicht über alle Keywords/Comma
 
 Klickt man den Overview-Button, zoomt der Viewport so weit heraus, dass man alle Slides in der Übersicht sehen kann. Klickt man in dieser Ansicht auf einen Slide, wird dieser herangezoomt.
 
+![overview-button](/Users/swirth/Documents/Websites/VoiceControlledPresentation/voicerecognitionfinal/material/overview-button.png)
+
 
 
 #### Folienübersicht
 
 In dieser Leiste sind alle Slides der Reihe nach aufgelistet, ähnlich wie in Programmen wie Powerpoint oder Keynote. Klickt man auf eines dieser Vorschau-Bilder, wird dieser   Diese Leiste kann mit einem Klick auf das Icon oben rechts versteckt werden.
 
+![folienuebersicht](/Users/swirth/Documents/Websites/VoiceControlledPresentation/voicerecognitionfinal/material/folienuebersicht.png)
+
 
 
 #### Erkannte Keywords
 
+Im Footer wird bei aktivem Präsentationsmodus angezeigt, was unsere Voice-Recognition verstanden hat. So lässt sich nachvollziehen was möglicherweise schief gelaufen ist, falls nicht der gewünschte Befehl ausgeführt wird.
+
+![erkannte-keywords](/Users/swirth/Documents/Websites/VoiceControlledPresentation/voicerecognitionfinal/material/erkannte-keywords.png)
+
+
+
 #### Voice Feedback
+
+Unten Rechts befindet sich eine Visualisierung des Mikrofon-Inputs. Wenn der Präsentationsmodus aktiv ist, startet auch diese Animation und signalisiert damit, dass die Voice Recognition aktiv ist.
+
+![voice-feedback](/Users/swirth/Documents/Websites/VoiceControlledPresentation/voicerecognitionfinal/material/voice-feedback.png)
 
 
 
@@ -67,7 +85,9 @@ Orion schreibt Gedanken und Stichpunkte auf die ausgewählte Folie durch “plea
 
 #### Find
 Durch die Suchfunktion “search for_” kann Orion die Präsentation auf geschriebenen und bildlichen Inhalt durchsuchen.
-Um innerhalb der Suche zu Navigieren gibt es die Kommandos “next result” oder “previous result”. “Exit search” beendet den Suchmodus und die Ansicht ist wieder auf Standart.
+Um innerhalb der Suche zu Navigieren gibt es die Kommandos “next result” oder “previous result”. “Exit search” beendet den Suchmodus und die Ansicht ist wieder auf Standart. Oben rechts wird angezeigt wie viele Suchresultate gefunden wurden und bei welchem Resultat, dass man sich gerade befindet.
+
+![search](/Users/swirth/Documents/Websites/VoiceControlledPresentation/voicerecognitionfinal/material/search.png)
 
 
 
