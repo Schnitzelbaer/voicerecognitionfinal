@@ -330,7 +330,7 @@ var myGroup = [
 
       // picks out all search results with a search-score lower than 0.3
       var filteredResults = _.filter(result, function(r) {
-        return r.score < 0.3;
+        return r.score < 0.1;
       });
 
       console.log("filteredResults = ", filteredResults);
