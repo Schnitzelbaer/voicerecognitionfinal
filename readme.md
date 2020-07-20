@@ -14,17 +14,20 @@ Die momentan aktuellste Version kann hier abgerufen werden: "!!!HIER AKTUELLSTEN
 
 ## Interface
 
+#### Play Button
+Über den Play Button wird die Präsentation gestartet
+
 #### Commands Index
 
+#### Overview Button
+
+#### Folienübersicht
+
+#### Erkannte Keywords
+
+#### Voice Feedback
 
 
-Play Button
-
-Overview Button
-
-Folienübersicht
-
-Erkannte Keywords
 
 
 
@@ -48,7 +51,26 @@ Find
 
 ## Code
 
-HTML
+Alle Slides werden im HTML index.html erzeugt.
+Das <div> der id=“impress” beinhaltet alle Slides. Um einen neuen  Slide zu generieren füge ein neues Div innerhalb von id=“impress” hinzu. 
+
+Das jeweilige Slide-DIv bekommt eine individuelle ID sowie die Klasse “step box”. Mithilfe der Attribute “data-x” und “data-y” plazierst du den Slide auf dem Canvas.
+
+Innerhalb des Slide-Divs können Tags wie <h>, <p>, <img> usw. eingefügt und verwendet werden.
+
+Erzeugung eines Beispielslides:
+
+<!-- all slides -->
+
+<div id="impress" data-max-scale="4" data-width="1000" data-height="650">
+
+  <!-- new slide -->
+  <div id="slidename" class="step box" data-x="0" data-y="0">
+    <p>Title</p>
+    <img id="titleimage" src="images/title.png" width="100%">
+  </div>
+
+</div>
 
 CSS
 
